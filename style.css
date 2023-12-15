@@ -1,0 +1,97 @@
+
+body{
+    /*background-color: rgba(255, 128, 0,  0.5 );    */
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+
+
+
+@media(min-width:1px)
+{
+
+
+/*Выравниевание*/
+
+
+.contain{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+
+
+.header{
+    background-color: rgba(165, 42, 42, 1);
+    height: 100px;
+    color: white;
+    
+}
+.block_grow{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h1{
+    font-size: 40px;
+}
+li{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+li > a{
+    text-decoration: none;
+    color: white;    
+}
+
+.Flex_position{
+    display: flex;
+    
+}
+
+/*Main*/
+
+.main{
+    margin-bottom: 17%;
+}
+
+.textbox{
+    padding: 45px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 128, 0,  0.5 );
+}
+
+.textbox > h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.textbox > p{
+    text-align: justify;
+    font-size: 24px;
+}
+
+.Footer{
+    background-color: rgba(165, 42, 42, 1);
+    height: 100px;
+    color: white;
+}
+
+}
+
+a:hover{
+    color: orangered;
+}
+
+.block_grow1{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 15px;
+}
